@@ -8,7 +8,6 @@ load_dotenv()
 
 # painel de opções
 
-
 async def show_panel(update: Update, context: ContextTypes.DEFAULT_TYPE, first_time=False):
     keyboard = [
         [InlineKeyboardButton("Notícias", callback_data="noticias")],
